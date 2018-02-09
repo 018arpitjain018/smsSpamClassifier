@@ -19,17 +19,11 @@ clf.fit(features_train, labels_train)
 prediction = clf.predict(features_test)
 
 print("Test case 1:")
-print("Extected label: ", labels_test[1])
+print("Expected label: ", labels_test[1])
 print("Predicted label: ", prediction[1])
 
 print("\nTest Case 2:")
-print("Extected label: ", labels_test[165])
-print("Predicted label: ", prediction[187])
+print("Expected label: ", labels_test[165])
+print("Predicted label: ", prediction[165])
 
 print("\nAccuracy Score: ", accuracy_score(labels_test, prediction))
-
-
-
-
-
-
